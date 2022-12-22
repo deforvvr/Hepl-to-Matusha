@@ -1,0 +1,219 @@
+.parent{
+
+}
+
+.topBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 23px;
+    gap: 373px;
+    isolation: isolate;
+    
+    position: absolute;
+    width: 1683px;
+    height: 94px;
+    left: 133px;
+    top: 16px;
+    
+}
+
+.mainBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 23px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 1312px;
+    height: 974px;
+    left: 527px;
+    top: 200px;
+    
+}
+
+.navigationPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 63px 27px;
+    gap: 60px;
+
+    position: absolute;
+    width: 394px;
+    height: 450px;
+    left: 25px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border-radius: 27px;
+}
+
+.dataBar{
+
+}
+
+.name{
+    width: 169px;
+    height: 70px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 137.5%;
+    /* identical to box height, or 88px */
+    
+    color: #000000;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.news{
+    width: 129px;
+    height: 32px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+       
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.alerts{
+    width: 208px;
+    height: 32px;  
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+
+    color: #000000;  
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    text-decoration: none;
+}
+
+
+.Link{
+    background-color: #4440FF;
+    width: 250px;
+    height: 60px;
+    border-radius: 18px;
+    border-width: 1px;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    
+}
+
+.date{
+    width: 590px;
+    height: 20px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    /* identical to box height, or 66px */
+
+    letter-spacing: -0.005em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px 6px 11px 20px;
+    gap: 3px;
+    
+    width: 1266px;
+    height: 100px;
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.lesson{
+    width: 340px;
+    height: 127px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    /* or 55px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+    text-align: center;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.time{
+    width: 340px;
+    height: 150px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    /* or 33px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+    text-align: center;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Link2{
+    text-decoration: none;
+}
