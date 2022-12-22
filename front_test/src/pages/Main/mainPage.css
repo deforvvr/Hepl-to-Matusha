@@ -1,0 +1,254 @@
+.parent{
+    position: relative;
+    background: #F2F2F2;
+}
+
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 23px;
+    gap: 380px;
+    
+    position: absolute;
+    width: 1683px;
+    height: 94px;
+    left: 133px;
+    top: 16px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.title{
+    width: 169px;
+    height: 88px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 137.5%;
+    /* identical to box height, or 88px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.news{
+    width: 129px;
+    height: 32px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%; 
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 159px 0px 0px;
+    gap: 416px;
+    
+    width: 1660px;
+    height: 88px;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 23px;
+    gap: 22px;
+    
+    position: absolute;
+    width: 1312px;
+    left: 527px;
+    top: 255px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+}
+
+.date{
+    width: 590px;
+    height: 3px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 137.5%;
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 11px 682px 11px 44px;
+    gap: 10px;
+    
+    width: auto;
+    height: 149px;
+    
+    background: #E9E9E9;
+    border-radius: 20px;
+}
+
+.lesson{
+    width: 340px;
+    height: 10px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 137.5%;
+    /* or 55px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+}
+
+.time{
+    width: 340px;
+    height: 60px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 137.5%;
+    /* or 33px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+}
+
+.chill_time{
+    width: 205px;
+    height: 2px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 137.5%;
+    /* identical to box height, or 28px */
+    
+    letter-spacing: -0.005em;
+    
+    color: #000000;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 63px 27px;
+    gap: 60px;
+    
+    position: absolute;
+    width: 394px;
+    height: 850px;
+    left: 44px;
+    top: 192px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.link{
+    width: 340px;
+    height: 52px;
+    background: #708FFF;
+    border-radius: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    left: 171px;
+    top: 267px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.data_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 27px;
+    gap: 32px;
+    position: absolute;
+    width: 1105px;
+    height: 74px;
+    left: 642px;
+    top: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+.data_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 108px;
+    height: 52px;
+
+    background: #FFFFFF;
+
+    font-family: 'IBM Plex Sans';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+
+    color: #000000;
+}
+
+.arrow_box{
+    box-sizing: border-box;
+
+    width: 10px;
+    height: 0px;
+    
+    border: 3px solid #000000;
+    border-radius: 39px;
+    transform: rotate(180deg);
+}
+
+.link145{
+    text-decoration: none;
+}
